@@ -84,13 +84,11 @@ func (s *Kafka) ExecuteImpl(args *dktypes.ExecuteRequest) ([]byte, error) {
 		config.Net.SASL.Handshake = true
 
 		if args.Config["saslMechanism"] == "sha512" {
-			log.Println("Using SCRAM SHA-512 for SASL authentication")
 			config.Net.SASL.SCRAMClientGeneratorFunc = func() sarama.SCRAMClient {
 				return &XDGSCRAMClient{HashGeneratorFcn: SHA512}
 			}
 			config.Net.SASL.Mechanism = sarama.SASLTypeSCRAMSHA512
 		} else if args.Config["saslMechanism"] == "sha256" {
-			log.Println("Using SCRAM SHA-256 for SASL authentication")
 			config.Net.SASL.SCRAMClientGeneratorFunc = func() sarama.SCRAMClient {
 				return &XDGSCRAMClient{HashGeneratorFcn: SHA256}
 			}

@@ -11,11 +11,11 @@ require (
 	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
 	github.com/devopsfaith/krakend-usage v1.4.0
 	github.com/fluent/fluent-logger-golang v1.9.0
-	github.com/fullstorydev/grpcurl v1.8.9
+	github.com/fullstorydev/grpcurl v1.9.1
 	github.com/gin-contrib/cors v1.7.2
 	github.com/gin-contrib/expvar v1.0.1
 	github.com/gin-contrib/multitemplate v1.0.1
-	github.com/gin-gonic/gin v1.9.1
+	github.com/gin-gonic/gin v1.10.0
 	github.com/golang/protobuf v1.5.4
 	github.com/hashicorp/go-discover v0.0.0-20210818145131-c573d69da192
 	github.com/hashicorp/go-hclog v1.6.3
@@ -24,9 +24,9 @@ require (
 	github.com/hashicorp/go-sockaddr v1.0.6
 	github.com/hashicorp/go-syslog v1.0.0
 	github.com/hashicorp/go-uuid v1.0.3
-	github.com/hashicorp/go-version v1.6.0
+	github.com/hashicorp/go-version v1.7.0
 	github.com/hashicorp/memberlist v0.5.1
-	github.com/hashicorp/raft v1.6.0
+	github.com/hashicorp/raft v1.7.1
 	github.com/hashicorp/raft-boltdb v0.0.0-20211202195631-7d34b9fb3f42
 	github.com/hashicorp/serf v0.10.1
 	github.com/jhump/protoreflect v1.16.0
@@ -36,13 +36,13 @@ require (
 	github.com/mitchellh/go-testing-interface v1.14.1 // indirect
 	github.com/nats-io/nats.go v1.36.0
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v1.19.1
+	github.com/prometheus/client_golang v1.20.2
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/ryanuber/columnize v2.1.2+incompatible
 	github.com/shirou/gopsutil/v3 v3.24.5
 	github.com/sirupsen/logrus v1.9.3
 	github.com/soheilhy/cmux v0.1.5
-	github.com/spf13/cobra v1.8.0
+	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.19.0
 	github.com/streadway/amqp v1.1.0
@@ -50,9 +50,9 @@ require (
 	github.com/tencentcloud/tencentcloud-sdk-go v3.0.83+incompatible // indirect
 	github.com/tidwall/buntdb v1.2.7
 	github.com/xdg-go/scram v1.1.2
-	golang.org/x/net v0.26.0
+	golang.org/x/net v0.28.0
 	google.golang.org/grpc v1.64.0
-	google.golang.org/protobuf v1.34.0
+	google.golang.org/protobuf v1.34.2
 )
 
 go 1.16
